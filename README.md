@@ -11,7 +11,7 @@ Realizar un análisis exploratorio de un conjunto de datos, creando visualizacion
 
 
 
-Integrantes:
+Integrantes
 
 Bruno Tiglla Arrascue (U20181A686)	
 Luis Gustavo Becerra Bisso (U201915451)	
