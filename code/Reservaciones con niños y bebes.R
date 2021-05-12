@@ -1,4 +1,4 @@
-#Carga de datos
+#Carga de datos del dataset limpio
 hotel_limpio <- read.csv("/Users/wilmartarazona/Downloads/hotel_limpio.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 #Visualización de datos - Preggunta E
 hotel_limpio$bebesYniños = (hotel_limpio$children>0 | hotel_limpio$babies>0)
