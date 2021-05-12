@@ -1,0 +1,6 @@
+hotel_limpio <- read.csv(local_host(), header = TRUE, stringsAsFactors = FALSE)
+View(hotel.limpio)
+library(ggplot2)
+view(table(hotel_limpio$required_car_parking_spaces))
+grafico_cp <- table(hotel_limpiol$required_car_parking_spaces[hotel$required_car_parking_spaces > 0])
+barplot(table(grafico_cp, main = "Cantidad de estacionamientos requeridos por Reserva (exceptuando reservas que no demandaron)")
