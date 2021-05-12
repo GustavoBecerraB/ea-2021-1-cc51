@@ -1,4 +1,4 @@
-#Carga de datos
+#Carga de datos del dataset limpio
 hotel_limpio <- read.csv("/Users/wilmartarazona/Downloads/hotel_limpio.csv", header = TRUE, sep = ",", stringsAsFactors = FALSE)
 #Visualización de datos C
 hotel_limpio_meses <- data.frame(table(hotel_limpio$arrival_date_month))
