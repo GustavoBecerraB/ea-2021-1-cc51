@@ -11,3 +11,4 @@ ggplot(count_Hotel, aes(x=ï..hotel, y = n)) +
   theme(plot.title = element_text(hjust = 0.5))
 
 
+
