@@ -1,6 +1,7 @@
 #Carga de DATOS
 hotel_limpio <- read.csv("hotel_limpio.csv", header = TRUE, stringsAsFactors = FALSE)
 
+
 #Analisis de Datos
 hotel_booking_reserva <- hotel_limpio%>%filter(is_canceled == 0)
 count_Hotel_Tiempo = count(hotel_booking_reserva, ï..hotel, arrival_date_year)
