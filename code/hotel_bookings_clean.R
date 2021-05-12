@@ -93,3 +93,6 @@ dwt_clean <- fix_outliers(hotel_limpio$days_in_waiting_list)
 par(mfrow = c(1,2))
 boxplot(hotel_limpio$days_in_waiting_list, main= "days_in_waiting_list sin outliers")
 boxplot(dwt_clean, main= "days_in_waiting_list con outliers")
+
+#Para guardar el archivo .csv
+write.csv(hotel_limpio, local_host(), na= "NA", row.names = FALSE)
