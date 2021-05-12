@@ -25,7 +25,7 @@ Realizar un análisis exploratorio de un conjunto de datos, creando visualizacio
 
 ### Descripción del Dataset
 
-En este conjunto de datos se recopilan datos de un hotel urbano y otro de tipo resort. contiene información de 31 variables que describen las 40.060 observaciones de Resort Hotel y 79.330 observaciones de City Hotel
+En este conjunto de datos se recopilan datos de un hotel urbano y otro de tipo resort. contiene información de 32 variables que describen las 40.060 observaciones de Resort Hotel y 79.330 observaciones de City Hotel
 
 
 
